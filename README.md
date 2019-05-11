@@ -1,4 +1,5 @@
 # alghoritms
 Implementations of basic algorithms
 
- ## Binary search
+ ## Implemented algorithms
+ ### Binary search
