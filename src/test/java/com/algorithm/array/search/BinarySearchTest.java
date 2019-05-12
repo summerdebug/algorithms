@@ -1,4 +1,4 @@
-package com.alghoritm.array.search;
+package com.algorithm.array.search;
 
 import static org.junit.Assert.assertEquals;
 

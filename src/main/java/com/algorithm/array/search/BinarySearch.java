@@ -1,4 +1,4 @@
-package com.alghoritm.array.search;
+package com.algorithm.array.search;
 
 public class BinarySearch {
 
