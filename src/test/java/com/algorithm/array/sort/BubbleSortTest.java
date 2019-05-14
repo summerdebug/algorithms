@@ -1,4 +1,4 @@
-package com.algorithm.sort;
+package com.algorithm.array.sort;
 
 import static org.junit.Assert.assertTrue;
 
