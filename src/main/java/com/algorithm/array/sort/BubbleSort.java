@@ -1,8 +1,8 @@
 package com.algorithm.array.sort;
 
-public class BubbleSort {
+class BubbleSort {
 
-    public static void sort(int[] values) {
+    static void sort(int[] values) {
         for (int i = 0; i < values.length - 1; i++) {
             for (int j = i + 1; j < values.length; j++) {
                 if (values[j] < values[i]) {

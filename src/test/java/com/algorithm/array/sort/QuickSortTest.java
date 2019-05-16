@@ -2,15 +2,15 @@ package com.algorithm.array.sort;
 
 import org.junit.Test;
 
-public class BubbleSortTest {
+public class QuickSortTest {
 
     @Test
-    public void givenBubbleSortWhenSortThenSuccessful() throws Exception {
+    public void givenQuickSortWhenSortThenSuccessful() throws Exception {
         // Arrange
         int[] values = SortTestUtil.getRandomIntArray();
 
         // Act
-        BubbleSort.sort(values);
+        QuickSort.sort(values);
 
         // Assert
         SortTestUtil.assertAscending(values);

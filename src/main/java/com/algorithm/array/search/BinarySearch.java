@@ -1,8 +1,8 @@
 package com.algorithm.array.search;
 
-public class BinarySearch {
+class BinarySearch {
 
-    public static int search(int[] values, int value) {
+    static int search(int[] values, int value) {
         return search(values, value, 0, values.length - 1);
     }
 

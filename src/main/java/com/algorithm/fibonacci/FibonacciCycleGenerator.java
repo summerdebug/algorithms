@@ -1,8 +1,8 @@
 package com.algorithm.fibonacci;
 
-public class FibonacciCycleGenerator {
+class FibonacciCycleGenerator {
 
-    public static int get(int index) {
+    static int get(int index) {
         if (index == 0) {
             return 0;
         }
