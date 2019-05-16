@@ -5,3 +5,4 @@ Implementation of basic algorithms
  - Binary search
  - Fibonacci number calculation
  - Bubble sort
+ - Quick sort
