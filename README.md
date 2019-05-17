@@ -6,3 +6,4 @@ Implementation of basic algorithms
  - Fibonacci number calculation
  - Bubble sort
  - Quick sort
+ - Merge sort
