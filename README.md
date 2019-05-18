@@ -7,3 +7,4 @@ Implementation of basic algorithms
  - Bubble sort
  - Quick sort
  - Merge sort
+ - Search element in graph using DFS approach
