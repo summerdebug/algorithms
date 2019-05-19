@@ -8,3 +8,4 @@ Implementation of basic algorithms
  - Quick sort
  - Merge sort
  - Search element in graph using DFS approach
+ - Search element in graph using BFS approach
