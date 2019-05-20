@@ -3,12 +3,14 @@ package com.algorithm.graph;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.Optional;
 import java.util.Set;
 
 public class Node {
 
     private final int id;
     private final Set<Node> links = new HashSet<>();
+    private Node previous;
 
     Node(int id) {
         this.id = id;
@@ -32,6 +34,14 @@ public class Node {
         if (links != null) {
             this.links.addAll(links);
         }
+    }
+
+    Optional<Node> getPrevious() {
+        return Optional.ofNullable(previous);
+    }
+
+    void setPrevious(Node previous) {
+        this.previous = previous;
     }
 
     @Override

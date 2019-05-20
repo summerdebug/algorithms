@@ -9,3 +9,4 @@ Implementation of basic algorithms
  - Merge sort
  - Search element in graph using DFS approach
  - Search element in graph using BFS approach
+ - Search shortest path in non-weighted graph using BFS approach
