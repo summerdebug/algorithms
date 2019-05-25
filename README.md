@@ -1,4 +1,4 @@
-# alghoritms
+# algorithms
 Implementation of basic algorithms
 
  ## Implemented algorithms
