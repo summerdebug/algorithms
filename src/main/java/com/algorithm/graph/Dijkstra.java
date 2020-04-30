@@ -50,11 +50,15 @@ class Dijkstra {
 
     private static Set<DijkstraNode> getAllNodes(DijkstraNode start) {
         Set<DijkstraNode> nodes = new HashSet<>();
-        if (nodes.add(start)) {
-            for (DijkstraNode link : start.getLinks().keySet()) {
-                nodes.addAll(getAllNodes(link));
+        collectAllNodes(start, nodes);
+        return nodes;
+    }
+
+    private static void collectAllNodes(DijkstraNode node, Set<DijkstraNode> nodes) {
+        if (nodes.add(node)) {
+            for (DijkstraNode link : node.getLinks().keySet()) {
+                collectAllNodes(link, nodes);
             }
         }
-        return nodes;
     }
 }
