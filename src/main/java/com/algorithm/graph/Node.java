@@ -10,6 +10,7 @@ public class Node {
 
     private final int id;
     private final Set<Node> links = new HashSet<>();
+    private int depth;
     private Node previous;
 
     Node(int id) {
@@ -42,6 +43,14 @@ public class Node {
 
     void setPrevious(Node previous) {
         this.previous = previous;
+    }
+
+    public int getDepth() {
+        return depth;
+    }
+
+    public void setDepth(int depth) {
+        this.depth = depth;
     }
 
     @Override
